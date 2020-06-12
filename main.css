@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&family=Metal+Mania&display=swap");
+body {
+  background-image: url("https://wallpaperplay.com/walls/full/8/8/3/113768.jpg");
+  background-size: cover;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  font-family: "MedievalSharp", cursive;
+  color: antiquewhite;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/* #hangman-div {
+  transition: ;
+} */
+#hangman {
+  font-size: 60px;
+  text-align: center;
+  margin: auto;
+  font-family: "MedievalSharp", cursive;
+  color: red;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.397), 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.card {
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  border: solid white 2px;
+  text-align: center;
+  display: inline-block;
+}
+
+.first {
+  color: red;
+  background-color: black;
+  font-size: 60px;
+  font-family: "Metal Mania", cursive;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.74), 1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 #000, 1px 1px 0 #000;
+  border: solid orange 2px;
+}
+
+img {
+  height: 300px;
+  width: 200px;
+  border: solid orange 2px;
+  margin: 10px;
+  transition: width 1s, height 1s;
+}
+
+img:hover {
+  width: 210px;
+  height: 310px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  border: 5px;
+}
+
+.chosen {
+  cursor: pointer;
+}
+
+section {
+  margin-top: 100px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  text-align: center;
+}
+
+input {
+  font-size: 2rem;
+  font-family: "MedievalSharp", cursive;
+  color: orange;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 10px;
+  border: solid orange 1px;
+  border-radius: 10px;
+  margin: 10px;
+}
+#imagename {
+  width: 70%;
+  font-size: 1rem;
+}
